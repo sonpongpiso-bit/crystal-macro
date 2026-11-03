@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "crystalmacro",
+	"version": "${version}",
+	"name": "Crystal Macro",
+	"description": "Client-side End Crystal combat helper for Minecraft 26.1.2. Hold an End Crystal and right-click to place obsidian, place a crystal, and break it using vanilla interactions.",
+	"authors": [
+		"son"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.son.crystalmacro.client.CrystalMacroClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
